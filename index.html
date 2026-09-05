@@ -440,7 +440,7 @@ footer{text-align:center;padding:26px;font-size:12px;color:var(--ink-soft);borde
       <div class="field"><label>Student ID</label><input type="text" id="suSid" placeholder="2026-001"><div class="field-error" id="suSidError">Enter your student ID.</div></div>
       <div class="field"><label>Contact number</label><input type="text" id="suContact"></div>
     </div>
-    <div class="field"><label>Email (must be @scc.edu)</label><input type="text" id="suEmail" placeholder="you@scc.edu"><div class="field-error" id="suEmailError">Email must be a valid, unused @scc.edu address.</div></div>
+    <div class="field"><label>Email</label><input type="text" id="suEmail" placeholder="you@scc.edu"><div class="field-error" id="suEmailError">Email must be a valid, unused @scc.edu address.</div></div>
     <div class="field"><label>Section / course (optional)</label><input type="text" id="suSection"></div>
     <div class="field-row">
       <div class="field"><label>Password</label><input type="password" id="suPassword"><div class="field-error" id="suPasswordError">At least 6 characters.</div></div>
@@ -507,8 +507,7 @@ let fundraisers = [
   {id:'f6', title:'Charity Run for Scholars', category:'Charity', otherCategoryDetail:'', icon:'💝', desc:'Fun run proceeds go straight to scholarship grants.', purpose:'Tuition support for 5 first-gen students.', target:25000, raised:9800, donorsCount:33, start:'2026-08-01', deadline:'2026-09-05', location:'Campus Oval', organizer:'Dean of Students Office', contact:'scholars@scc.edu', status:'active', createdBy:'u1', letterName:'charityrun-proposal.pdf', letterData:null},
   {id:'f7', title:'Esports Arena Setup', category:'Other', otherCategoryDetail:'Recreational tech club infrastructure', icon:'🎯', desc:'Gaming PCs and casting gear for the new club arena.', purpose:'Outfit a 12-seat arena for tournaments.', target:10000, raised:0, donorsCount:0, start:'2026-09-01', deadline:'2026-10-10', location:'Student Center', organizer:'Gaming Guild', contact:'esports@scc.edu', status:'pending', createdBy:'u1', letterName:'esports-proposal.pdf', letterData:null},
   {id:'f8', title:'Off-Campus Trip Fund', category:'Other', otherCategoryDetail:'Unofficial trip', icon:'🎯', desc:'Unverified personal trip request.', purpose:'Not aligned with fundraising guidelines.', target:5000, raised:0, donorsCount:0, start:'2026-08-15', deadline:'2026-09-15', location:'—', organizer:'Unverified', contact:'—', status:'rejected', createdBy:'u2', letterName:null, letterData:null},
-  {id:'f9', title:'Winter Coat Drive', category:'Charity', otherCategoryDetail:'', icon:'💝', desc:'Collecting funds ahead of the winter coat drive.', purpose:'Matching fund to double every coat-drive donation.', target:8000, raised:0, donorsCount:0, start:'2026-09-01', deadline:'2026-11-01', location:'Main Campus', organizer:'Social Work Club', contact:'socwork@scc.edu', status:'active', createdBy:'u2', letterName:'coatdrive-proposal.pdf', letterData:null}
-];
+  
 
 let donations = [
   {id:'d1', refNo:'DON-0001', fundraiserId:'f3', fundraiserTitle:'Medical Drive for Flood Victims', donorUserId:'u1', donorName:'Louella May Soliven', amount:500, method:'GCash (Simulation)', message:'Stay strong!', date:'2026-08-20', status:'recorded'},
